@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+  /* border-radius: 3vh; */
+}
+
+body {
+  max-width: 98vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+  border: 3px purple solid;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 4vh auto 8vh;
+    gap: 5vh;
+    align-items: center;
+    
+    border: 1px blue solid;
+}
+
+.nome, .mural {
+  display: flex;
+  flex-direction: row;
+  font-size: 10vh;
+  width: 90%;
+  
+  border: 1px yellow solid;
+}
+
+.mural {
+  font-size: 5vh;
+}
+
+#pepe, #murales {
+  text-align: center;
+  width: 90%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  gap: 8vh;
+  
+  border: 1px red solid;
+}
+
+#obrad {
+  border: 1px green solid; 
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+}
+
+#obrae {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  
+  border: 1px green solid; 
+}
+
+#txtdir {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#txtesq {
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
+
+#art1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#art2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+img {
+  margin: auto;
+}
+
+#foto {
+  border-radius: 6px;
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 700px) {
+  
+  #foto {
+    min-width: 70%;
+    min-height: 70%;
+}
+}
