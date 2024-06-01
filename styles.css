@@ -7,12 +7,12 @@
 }
 
 body {
-  max-width: 98vw;
+  max-width: 96vw;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   
-  border: 3px purple solid;
+  /* border: 3px purple solid; */
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     gap: 5vh;
     align-items: center;
     
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
 }
 
 .nome, .mural {
@@ -32,7 +32,7 @@ header {
   font-size: 10vh;
   width: 90%;
   
-  border: 1px yellow solid;
+  /* border: 1px yellow solid; */
 }
 
 .mural {
@@ -52,11 +52,11 @@ main {
   width: 90%;
   gap: 8vh;
   
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 #obrad {
-  border: 1px green solid; 
+  /* border: 1px green solid;  */
   position: relative;
   width: 90%;
   display: flex;
@@ -74,7 +74,7 @@ main {
   align-items: center;
   border-radius: 8px;
   
-  border: 1px green solid; 
+  /* border: 1px green solid;  */
 }
 
 #txtdir {
