@@ -7,7 +7,7 @@
 }
 
 body {
-  max-width: 96vw;
+  max-width: 94vw;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -107,14 +107,14 @@ img {
 
 #foto {
   border-radius: 6px;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
 }
 
 @media (max-width: 700px) {
   
   #foto {
-    min-width: 70%;
-    min-height: 70%;
+    min-width: 80%;
+    min-height: 80%;
 }
 }
