@@ -1,4 +1,5 @@
 AOS.init({
+  startEvent: 'DOMContentLoaded',
   anchorPlacement: 'center-center',
   offset: 100,
   duration: 1200,
